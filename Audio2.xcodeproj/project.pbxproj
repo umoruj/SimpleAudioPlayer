@@ -15,6 +15,7 @@
 		9C97C4DF1DB794B50088A77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C97C4DD1DB794B50088A77F /* LaunchScreen.storyboard */; };
 		9C97C4EA1DB794B50088A77F /* Audio2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C97C4E91DB794B50088A77F /* Audio2Tests.swift */; };
 		9C97C4F51DB794B50088A77F /* Audio2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C97C4F41DB794B50088A77F /* Audio2UITests.swift */; };
+		9C97C5041DB79AF10088A77F /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C97C5031DB79AF10088A77F /* sample.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9C97C4F01DB794B50088A77F /* Audio2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Audio2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C97C4F41DB794B50088A77F /* Audio2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio2UITests.swift; sourceTree = "<group>"; };
 		9C97C4F61DB794B50088A77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C97C5031DB79AF10088A77F /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				9C97C4DB1DB794B50088A77F /* Assets.xcassets */,
 				9C97C4DD1DB794B50088A77F /* LaunchScreen.storyboard */,
 				9C97C4E01DB794B50088A77F /* Info.plist */,
+				9C97C5021DB799F00088A77F /* Music */,
 				9C97C4D81DB794B50088A77F /* Audio2.xcdatamodeld */,
 			);
 			path = Audio2;
@@ -126,6 +129,14 @@
 				9C97C4F61DB794B50088A77F /* Info.plist */,
 			);
 			path = Audio2UITests;
+			sourceTree = "<group>";
+		};
+		9C97C5021DB799F00088A77F /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				9C97C5031DB79AF10088A77F /* sample.m4a */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8VP2CK62GJ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					9C97C4E41DB794B50088A77F = {
 						CreatedOnToolsVersion = 8.0;
@@ -239,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C97C4DF1DB794B50088A77F /* LaunchScreen.storyboard in Resources */,
+				9C97C5041DB79AF10088A77F /* sample.m4a in Resources */,
 				9C97C4DC1DB794B50088A77F /* Assets.xcassets in Resources */,
 				9C97C4D71DB794B50088A77F /* Main.storyboard in Resources */,
 			);
